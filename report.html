@@ -19,9 +19,8 @@
     <!-- stylesheet -->
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <!-- font -->
-    <style>
-    @import url('https://fonts.googleapis.com/css2?family=Nokora&display=swap');
-    </style>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Inknut+Antiqua&display=swap" rel="stylesheet">
   </head>
 
 <body>
@@ -30,7 +29,7 @@
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
-  <nav class="navbar fixed-top navbar-expand-sm navbar-light bg_NA">
+  <nav class="navbar fixed-top navbar-expand-sm navbar-light bg_p3_L">
         <a class="navbar-brand home" href="index.html">Doris Tung</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbardropdown" aria-controls="navbardropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -48,7 +47,7 @@
           Works
         </a>
         <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-          <!-- <li><a class="dropdown-item" href="dashboard.html">Custom Dashboard</a></li> -->
+          <li><a class="dropdown-item" href="dashboard.html">Custom Dashboard</a></li>
           <li><a class="dropdown-item" href="intelligence.html">Threat intelligence</a></li>
           <li><a class="dropdown-item" href="report.html">Network Analytics Report</a></li>
         </ul>
@@ -57,10 +56,10 @@
   </nav>
 
 <!-- Intro -->
-  <header class="bg_NA">
+  <header class="bg_p3_L">
     <div class="container">
-      <h4>Network Analytics Report</h4>
-        <div class="row align-items-top" style="padding-top:40px">
+      <h2>Network Analytics Report</h2>
+        <div class="row align-items-center" style="padding-top:40px">
           <!-- left column -->
           <div class="col-lg-6">
             <figure>
@@ -69,16 +68,20 @@
           </div>
             <!-- right column -->
             <div class= "col-lg-6">
-              <p>The network analytics report offers an interactive Sankey diagram, facilitating users' understanding of each phase of an attack.It visualizes network traffic and correlates events, granting real-time visibility for a holistic understanding of the entire attack process.</p>
+              <p>A network analytics report provides an interactive Sankey diagram to help users understand every step of the attack. It provides the network traffic and correlate events in a graph for real-time visibility and let user have a bigger picture of the full attack.</p>
               <table class="table table-borderless table-sm" style="margin: 24px 0px" cellpadding="8px">
                 <tbody>
                   <tr>
-                    <td nowrap="nowrap"><p>My Role</p></td>
+                    <td nowrap="nowrap"><h5>My Role</h5></td>
                     <td style="padding-left: 24px;">UX designer</td>
                   </tr>
                   <tr>
-                    <td nowrap="nowrap"><p>Key Activities</p> </td>
-                    <td style="padding-left: 24px;">Assist usability testing, Concept ideation, Wireframing</td>
+                    <td nowrap="nowrap"><h5>Key Skills</h5> </td>
+                    <td style="padding-left: 24px;">User research, Concept ideation, Wireframing</td>
+                  </tr>
+                  <tr>
+                    <td nowrap="nowrap"><h5>Team</h5> </td>
+                    <td style="padding-left: 24px;">UX researcher, Product manager</td>
                   </tr>
                 </tbody>
               </table>
@@ -88,116 +91,121 @@
   </header>
 
 <!-- Goal&process -->
+<!-- <section> -->
 <section>
   <div class="container">
-  <h3>Goal</h3>
-  <p class="m24">To <b>refine the usability</b> of the network analytics report based on user interview insights.<br> The objective is to deliver an interactive report that is <b>clearer and more user-friendly.</b></p>
-  </div>
-
-  <div class="container">
-  <h3>Process</h3>
-  <ol class="m24">
-    <li>Collaborated with the user researcher to conduct interviews, defining research goals, questions, and testing materials.</li>
-    <li>Prioritized user needs collected from research and devised UI designs accordingly.</li>
-    <li>Conducted quick validation with previous interviewees to ensure the design concept effectively addressed their concerns.</li>
-    <li>Enhanced the usability of the network analytics report to deliver an interactive interface that is clearer and more intuitive based on user interview findings.</li>
-  </ol>
+    <div class="row justify-content-between">
+      <div class="col-lg-5" style="padding-top:40px">
+        <h6>Design goal</h6>
+        <p>Enhance the usability of the network analytics report based on the user interview findings. Aim to provide a an interactive report which is more clear and easier to use.</p>
+      </div>
+      <div class="col-lg-6" style="padding-top:40px">
+        <h6>Design process</h6>
+        <ul>
+          <li>Co-work with the user researcher to conduct user interviews, including define the research goal, research questions and create the materials for testing.</li>
+          <li>Prioritize the user needs that we collected from the user research and came up with the UI design accordingly. </li>
+          <li>Conduct a quick validation with the previous interviewees to make sure the design concept indeed solve their problem.</li>
+          <li>Enhance the usability of the network analytics report based on the user interview findings. Aim to provide a an interactive report which is more clear and easier to use.</li>
+        </ul>
+      </div>
   </div>
 </section>
 
 
 <!-- outcome -->
 
+<section>
+  <div class="container end">
+  <h6>Design outcome</h6>
 
- <div class="container">
-  <h3 class="m24">Design outcome</h3>
- </div>
-  
 <!-- 1 -->
   <section>
-   <div class="container">
-      <h6> 1.Enhance the summary view</h6>
-      <figure>
-        <img src="img/p3_outcome_1.png" width="100%">
-      </figure>
-      <!-- Pain point -->
-      <h5 class="m24">Identified Pain Points:</h5>
-      <ul>
-        <li>Difficulty in grasping the overall attack pattern and impact scope at a glance.</li>
-        <li>Lack of connection between the summary content and the graph, leading to difficulties in understanding the report.</li>
-        <li>Flat presentation of information without prioritization, making it challenging for users to discern crucial details.</li>
-      </ul>
-      <hr>
-      <!-- Refine -->
-      <h5 class="m24">Proposed Design Solutions:</h5>
-      <ol>
-        <li><b>Improved Visibility: </b><br>Place the report title and impact scope at the top for easy visibility upon accessing the report.</li><br>
-        <li><b>Enhanced Focus Feature: </b><br>Introduce a FOCUS function on summary objects to direct users to relevant nodes on the Sankey chart, improving navigation and understanding.</li><br>
-        <li><b>Clear Differentiation:</b><br>Highlight trigger events and distinguish time steps from other information, enhancing clarity and comprehension for users.</li><br>
-      </ol>
+    <div class="p3_h1">1.Enhance the summary view</div>
+    <figure>
+      <img src="img/p3_outcome_1.png" width="100%">
+    </figure>
+    <div class="row align-items-top">
+      <!-- left column -->
+      <div class="col-lg-6 box bg_p3_D">
+        <span class="badge bg_p3_L">#Pain points</span>
+        <ul>
+        <li>Not be able to see the overall attack pattern and impact scope at a glance</li>
+        <li>Lack of connection between the summary content and the graph which make the report hard to understand.</li>
+        <li>The information is flat without any prioritization and hence make it hard for users to get the point.</li>
+        </ul>
+      </div>
+      <!-- right column -->
+      <div class="col-lg-6 box bg_p3_L">
+        <span class="badge bg_p3_D">#New design</span>
+        <ul>
+          <li>Provide the report title and impact scope on the top that user can catch it once they view the report.</li>
+          <li>Provide “focus” function on the object in summary which helps user to indicate to the related node on the sankey chart.</li>
+          <li>Highlight the trigger event and differentiate the time step with other information to make it easier to understand.  </li>
+        </ul>
+      </div>
     </div>
   </section>
 
 <!--2 -->
 <section>
-  <div class="container">
-     <h6> 2. Adjusting the Report Layout</h6>
-     <figure>
-       <img src="img/p3_outcome_2.png" width="100%">
-     </figure>
-     <!-- Pain point -->
-     <h5 class="m24">Identified Pain Points:</h5>
-     <p>The network analytics report is challenging to read due to its lengthy content, which is split into three disconnected parts.</p>
-     <hr>
-     <!-- Refine -->
-     <h5 class="m24">Proposed Design Solutions:</h5>
-     <ol>
-       <li><b>Enhanced Report Navigation: </b><br>Fix the report title at the top and introduce an expandable summary section. This allows users to initially view the summary as guidance and hide it when they need to focus on the graph.</li><br>
-       <li><b>Improved Information Presentation: </b><br>Display detailed event information next to the graph, enabling users to compare it directly with the graphical representation.</li><br>
-     </ol>
-   </div>
- </section>
-
+  <div class="p3_h1">2. Adjust the report layout</div>
+  <figure>
+    <img src="img/p3_outcome_2.png" width="100%">
+  </figure>
+  <div class="row align-items-top">
+    <!-- left column -->
+    <div class="col-lg-6 box bg_p3_D">
+      <span class="badge bg_p3_L">#Pain points</span>
+      <ul>
+        <li>The network analytics report is not easy to read because the content is too long and it is split into three parts without connection. </li>
+      </ul>
+    </div>
+    <!-- right column -->
+    <div class="col-lg-6 box bg_p3_L">
+      <span class="badge bg_p3_D">#New design</span>
+      <ul>
+      <li>Fix the report title on the top and make the summary expandable so that users can read the summary as a guidance at first and hide it when they need to dig into the graph.</li>
+      <li>Show the detail information event right beside the graph that users could compare it with the graph.</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
   <!-- 3 -->
     <section>
-      <div class="container end">
-        <h6> 3. Making the Report Interactive</h6>
-        <!-- Pain -->
-        <div class="row align-items-top">
-          <!-- left column -->
-          <div class="col-lg-6">
-            <h5 class="m24">Identified Pain Points:</h5>
-            <ul>
-              <li>Difficulty in viewing the entire report content on one screen due to its size. </li>
-              <li>Presence of unnecessary information that occupies space.</li>
-              <li>Sankey chart becomes difficult to read when overwhelmed with too many lines.</li>
-            </ul>
-          </div>
-          <!-- right column -->
-          <div class="col-lg-6 box">
-            <figure>
-              <img src="img/p3_outcome_3_1.png" width="100%">
-            </figure>
-          </div>
+      <div class="p3_h1">3. Make the report interactive</div>
+      <div class="row align-items-top bg_p3_D">
+        <!-- left column -->
+        <div class="col-lg-6 box">
+          <figure>
+            <img src="img/p3_outcome_3_1.png" width="100%">
+          </figure>
         </div>
-        <hr>
-        <!-- Solution -->
-        <div class="row align-items-top">
-          <!-- left column -->
-          <div class="col-lg-6">
-            <figure>
-              <img src="img/p3_outcome_3_2.png" width="100%">
-            </figure>
-          </div>
-          <!-- right column -->
-          <div class="col-lg-6">
-          <h5 class="m24">Proposed Design Solutions:</h5>
-            <ul>
-              <li>Implement a filter function enabling users to narrow down the scope of the report.</li><br>
-              <li>The filter not only reduces the complexity of the Sankey chart but also streamlines the detail information, allowing users to focus on their specific areas of interest or concern.</li><br>
-            </ul>
-          </div>
+        <!-- right column -->
+        <div class="col-lg-6 box">
+          <span class="badge bg_p3_L">#Pain points</span>
+          <ul>
+            <li>The report content might get too huge and unable to view in one full screen. </li>
+            <li>Some information are concluded as not important but still take up the space.</li>
+            <li>The sankey chart get hard to read when there are too many lines on it.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row align-items-top bg_p3_L">
+        <!-- left column -->
+        <div class="col-lg-6 box">
+          <figure>
+            <img src="img/p3_outcome_3_2.png" width="100%">
+          </figure>
+        </div>
+        <!-- right column -->
+        <div class="col-lg-6 box">
+          <span class="badge bg_p3_D">#New design</span>
+          <ul>
+            <li>Provide a filter function that allows users to narrow down the scope of the report.</li>
+            <li>The filter not only reduce the sankey chart but also narrow the detail information so that  users could focus on the part they are interested in or needed to take care.</li>
+          </ul>
         </div>
       </div>
     </section>
