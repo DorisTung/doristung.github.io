@@ -19,16 +19,17 @@
     <!-- stylesheet -->
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <!-- font -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Inknut+Antiqua&display=swap" rel="stylesheet">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nokora&display=swap');
+    </style>
   </head>
 
-<body class="bg_p2">
+<body class="bg_TI">
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M8DCQNG"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <nav class="navbar fixed-top navbar-expand-sm navbar-light bg_p2">
+  <nav class="navbar fixed-top navbar-expand-sm navbar-light bg_TI">
         <a class="navbar-brand home" href="index.html">Doris Tung</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbardropdown" aria-controls="navbardropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -46,7 +47,7 @@
           Works
         </a>
         <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-          <li><a class="dropdown-item" href="dashboard.html">Custom Dashboard</a></li>
+          <!-- <li><a class="dropdown-item" href="dashboard.html">Custom Dashboard</a></li> -->
           <li><a class="dropdown-item" href="intelligence.html">Threat intelligence</a></li>
           <li><a class="dropdown-item" href="report.html">Network Analytics Report</a></li>
         </ul>
@@ -55,26 +56,24 @@
   </nav>
 
 <!-- Intro -->
-  <div>
-  <header>
+  <header class="bg_TI">
     <div class="container">
       <div class="row align-items-center">
         <!-- left column -->
         <div class="col-lg-6">
-          <h2>Threat intelligence</h2>
+          <h4>Threat intelligence</h4>
           <div class= "project_intro">
-            <p>Threat intelligence is a service which gather the worldwide existing threats information to help customers have greater visibility into threats.
+            <p class="m24">Threat intelligence is a service that efficiently gathers information on existing worldwide threats, empowering Security Operators with greater visibility into potential risks and dangers.
             </p>
-            <table class="table table-borderless table-sm" style="margin: 24px 0px" cellpadding="8px">
+            <table class="table table-borderless table-sm">
               <tbody>
-                <tr>
-                  <td nowrap="nowrap"><h5>My Role</h5></td>
-                  <td style="padding-left: 24px;">UX designer</td>
+                <tr class="m24">
+                  <td>My Role</td>
+                  <td>UX designer</td>
                 </tr>
                 <tr>
-                  <td nowrap="nowrap"><h5>Key Skills</h5> </td>
-                  <td style="padding-left: 24px;">Competitor study,<br>
-                     Eco-system study,<br> E2E User flow</td>
+                  <td nowrap="nowrap">Key outcomes</td>
+                  <td>Competitor study,<br>Ecosystem Study,<br> E2E User flow</td>
                 </tr>
               </tbody>
             </table>
@@ -89,150 +88,134 @@
     </div>
     </div>
   </header>
-  </div>
 
 <!-- process -->
 
 <section>
   <div class="container">
-  <h6>Design process</h6>
-
-    <div class="row">
-      <!-- left column -->
-      <div class="col-lg-4">
-        <div class="p2_process">
-          <figure>
-            <img src="img/p2_process_1.png" width=100%>
-          </figure>
-          <div class="p30">
-            <h5>Eco-system study</h5>
-            <ul>
-              <li>Explore the relationship of the threat intelligence with other features in the product.</li>
-              <li>Consider the overall user experience to provide cross features and products flow.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <!-- center column -->
-      <div class="col-lg-4">
-        <div class="p2_process">
-          <figure>
-            <img src="img/p2_process_2.png" width=100%>
-          </figure>
-          <div class="p30">
-            <h5>Competitor study</h5>
-            <ul>
-              <li>Study competitors' product to see how other vendors provide the Threat intelligence service.</li>
-              <li>Present the study result to the team and discuss the missing point in our Threat intelligence features.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <!-- right column -->
-      <div class="col-lg-4">
-        <div class="p2_process">
-          <figure>
-            <img src="img/p2_process_3.png" width=100%>
-          </figure>
-          <div class="p30">
-            <h5 >User flow</h5>
-            <ul >
-              <li>Based on user scenarios and use cases to create the user flow.</li>
-              <li>Consider overall user journey to create in- app and cross apps user flows.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
+    <h3 class="m24">Design process</h3>
+    <p>Feature Brief from Product Mangager:</br>This feature is on empowering security operations by leveraging collective threat report. Unlike existing practices of consolidating threat information into structured reports, our product aimed to stand out by aggregating these reports and delivering comprehensive analysis results to them.</p>
+      <table class="table table-borderless table-sm">
+        <tbody>
+          <tr>
+            <td><p class="numbers">1</p></td>
+            <td>
+              <h5>Pre-Design Research</h5>
+              <p>Conduct comprehensive research before diving into the design phase.</p>
+              <ol>
+              <li class="m24"><b>Competitor study: </b>Analyzed competitors to understand their Threat Intelligence services, presenting insights to the team for discussions on product improvement and addressing gaps.</li>
+              <li class="m24"><b>Ecosystem Study: </b>Explored existing features within our product platform, identifying opportunities to seamlessly integrate and enhance the Threat Intelligence service. </li>
+              </ol>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="numbers">2</p></td>
+            <td>
+              <h5>Define Design Goals</h5>
+              <p>Based on research and team discussions, defined design goals to ensure alignment with product objectives.</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="numbers">3</p></td>
+            <td>
+            <h5>UX Flow Creation and Delivery</h5>
+            <p>Crafted the user flow by leveraging user scenarios and use cases, considering the overall user journey to develop in-app and cross-app flows that meet the design goals.</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p class="numbers">4</p></td>
+            <td>
+            <h5>Iterative Refinement</h5>
+            <p>Continuously refined the design through iterative cycles, incorporating feedback and insights from users for ongoing improvement.</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
   </div>
-</div>
 </section>
+<div style="padding-bottom: 24px;">
+  <figure>
+    <img src="img/p2_process.png" width=100%>
+  </figure>
+</div>
+ 
+
 
 <!-- Goal -->
-<section class="m24" style="background-color: #DCC6AE;">
+<section style="background-color: #CADCFA;">
   <div class="container">
-    <div class="row">
-      <!-- left column -->
-      <div class="col-lg-5">
-        <h6>Design goal</h6>
-      </div>
-      <!-- right column -->
-      <div class="col-lg-7">
-        <p>Help Security Operation Center (SOC) team to answer the following questions:</p>
+    <h3>Design goal</h3>
+    <p class="m24">Enable Security Operators to address the following inquiries efficiently:</p>
         <ul>
-          <li>What is the trending of the cyber attack?</li>
-          <li>Am I affected by any attack?</li>
-          <li>How serious and what’s the impact of the attack?</li>
+          <li>What is the current trend in cyber attacks?</li>
+          <li>Is my company's environment impacted by any attacks?</li>
+          <li>What is the severity and impact of detected attacks?</li>
         </ul>
-      </div>
-    </div>
 </section>
 
 <!-- outcome -->
 
 <section>
   <div class="container end">
-  <h6>Design outcome</h6>
+  <h3>Design outcome</h3>
 
 <!-- 1 -->
-  <section>
-    <div class="row">
+    <div class="row" style="padding: 40px 0px;">
       <!-- left column -->
-      <div class="col-lg-5">
-        <h5>What is the trending of the cyber attack?</h5>
+      <div class="col-lg-6">
+        <p>Question #1 <text_TI><br>What is the current trend in cyber attacks?</text_TI></p>
+        <p>Solution #1 <text_TI><br>Threat Trend Analysis</text_TI></p>
         <ul>
-          <li>Provide up-to-date threat attack reports and sort by last updated time.</li>
-          <li>While the threat attack reports are worldwide, help customers use filter to narrow down to the scope that they need to take care.</li>
+          <li>Provide users with up-to-date threat attack reports, sortable by last updated time.</li>
+          <li>Implement filtering options to help users narrow down reports to their specific scope of interest.</li>
         </ul>
       </div>
       <!-- right column -->
-      <div class= "col-lg-7">
+      <div class= "col-lg-6">
         <figure>
           <img src="img/p2_outcome_1.png" width="100%">
         </figure>
       </div>
     </div>
-  </section>
 
 <!-- 2 -->
-  <section>
-    <div class="row">
+    <div class="row" style="padding: 40px 0px;">
       <!-- left column -->
-      <div class="col-lg-5">
-        <h5>Am I affected by any attack?</h5>
+      <div class="col-lg-6">
+        <p>Question #2 <text_TI><br>Is my company's environment impacted by any attacks?</text_TI></p>
+        <p>Solution #2 <text_TI><br>Environment Impact Assessment</text_TI></p>
         <ul>
-          <li>The summary widget shows how many attacks are under tracking and what attacks might affact customer’s environment.</li>
-          <li>Customers could use the filters to view all possible attack matched result.</li>
+          <li>Display a summary widget indicating the number of attacks being tracked and those potentially affecting the customer's environment.</li>
+          <li>Enable users to apply filters for viewing all potential attack matches.</li>
         </ul>
       </div>
       <!-- right column -->
-      <div class= "col-lg-7">
+      <div class= "col-lg-6">
         <figure>
           <img src="img/p2_outcome_2.png" width="100%">
         </figure>
       </div>
     </div>
-  </section>
 
   <!-- 3 -->
-    <section>
-      <div class="row">
+      <div class="row" style="padding: 40px 0px;">
         <!-- left column -->
-        <div class="col-lg-5">
-          <h5>How serious and what’s the impact of the attack?</h5>
-          <ul>
-            <li>In the attack matched summary, customer could know the impact scope and the attack indicators.</li>
-            <li>User could view more detail through the network chart.</li>
-          </ul>
-        </div>
+        <div class="col-lg-6">
+        <p>Question #3 <text_TI><br>What is the severity and impact of detected attacks?</text_TI></p>
+        <p>Solution #3 <text_TI><br>Severity and Impact Insight</text_TI></p>
+        <ul>
+          <li>Within the attack matched summary, present information on the impact scope and attack indicators.</li>
+          <li>Offer users a detailed view through network charts for deeper exploration and understanding.</li>
+        </ul>
+      </div>
         <!-- right column -->
-        <div class= "col-lg-7">
+        <div class= "col-lg-6">
           <figure>
             <img src="img/p2_outcome_3.png" width="100%">
           </figure>
         </div>
       </div>
-    </section>
-  </div>
+    </div>
 </section>
 
 
