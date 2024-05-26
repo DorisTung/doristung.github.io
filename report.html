@@ -120,21 +120,26 @@
       <figure>
         <img src="img/p3_outcome_1.png" width="100%">
       </figure>
-      <!-- Pain point -->
-      <h5 class="m24">Identified Pain Points:</h5>
-      <ul>
-        <li>Difficulty in grasping the overall attack pattern and impact scope at a glance.</li>
-        <li>Lack of connection between the summary content and the graph, leading to difficulties in understanding the report.</li>
-        <li>Flat presentation of information without prioritization, making it challenging for users to discern crucial details.</li>
-      </ul>
-      <hr>
-      <!-- Refine -->
-      <h5 class="m24">Proposed Design Solutions:</h5>
-      <ol>
-        <li><b>Improved Visibility: </b><br>Place the report title and impact scope at the top for easy visibility upon accessing the report.</li><br>
-        <li><b>Enhanced Focus Feature: </b><br>Introduce a FOCUS function on summary objects to direct users to relevant nodes on the Sankey chart, improving navigation and understanding.</li><br>
-        <li><b>Clear Differentiation:</b><br>Highlight trigger events and distinguish time steps from other information, enhancing clarity and comprehension for users.</li><br>
-      </ol>
+      <div class="row">
+        <!-- Pain point -->
+        <div class="col-lg-6">
+        <h5 class="m24">Pain Points:</h5>
+        <ul>
+          <li>Difficulty in grasping the overall attack pattern and impact scope at a glance.</li>
+          <li>Lack of connection between the summary content and the graph, leading to difficulties in understanding the report.</li>
+          <li>Flat presentation of information without prioritization, making it challenging for users to discern crucial details.</li>
+        </ul>
+        </div>
+        <!-- Refine -->
+        <div class="col-lg-6 column-border bg_NA">
+        <h5 class="m24">Design Solutions:</h5>
+        <ol>
+          <li><b>Improved Visibility: </b><br>Place the report title and impact scope at the top for easy visibility upon accessing the report.</li><br>
+          <li><b>Enhanced Focus Feature: </b><br>Introduce a FOCUS function on summary objects to direct users to relevant nodes on the Sankey chart, improving navigation and understanding.</li><br>
+          <li><b>Clear Differentiation:</b><br>Highlight trigger events and distinguish time steps from other information, enhancing clarity and comprehension for users.</li><br>
+        </ol>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -145,16 +150,21 @@
      <figure>
        <img src="img/p3_outcome_2.png" width="100%">
      </figure>
-     <!-- Pain point -->
-     <h5 class="m24">Identified Pain Points:</h5>
-     <p>The network analytics report is challenging to read due to its lengthy content, which is split into three disconnected parts.</p>
-     <hr>
-     <!-- Refine -->
-     <h5 class="m24">Proposed Design Solutions:</h5>
-     <ol>
-       <li><b>Enhanced Report Navigation: </b><br>Fix the report title at the top and introduce an expandable summary section. This allows users to initially view the summary as guidance and hide it when they need to focus on the graph.</li><br>
-       <li><b>Improved Information Presentation: </b><br>Display detailed event information next to the graph, enabling users to compare it directly with the graphical representation.</li><br>
-     </ol>
+     <div class="row">
+      <!-- Pain point -->
+      <div class="col-lg-6">
+      <h5 class="m24">Pain Points:</h5>
+      <p>The network analytics report is challenging to read due to its lengthy content, which is split into three disconnected parts.</p>
+      </div>
+      <!-- Refine -->
+      <div class="col-lg-6 column-border bg_NA">
+      <h5 class="m24">Design Solutions:</h5>
+      <ol>
+        <li><b>Enhanced Report Navigation: </b><br>Fix the report title at the top and introduce an expandable summary section. This allows users to initially view the summary as guidance and hide it when they need to focus on the graph.</li><br>
+        <li><b>Improved Information Presentation: </b><br>Display detailed event information next to the graph, enabling users to compare it directly with the graphical representation.</li><br>
+      </ol>
+    </div>
+    </div>
    </div>
  </section>
 
@@ -163,41 +173,47 @@
     <section>
       <div class="container end">
         <h6> 3. Making the Report Interactive</h6>
-        <!-- Pain -->
         <div class="row align-items-top">
-          <!-- left column -->
+          <!-- Pain -->
           <div class="col-lg-6">
-            <h5 class="m24">Identified Pain Points:</h5>
+            <h5 class="m24">Pain Points:</h5>
             <ul>
               <li>Difficulty in viewing the entire report content on one screen due to its size. </li>
               <li>Presence of unnecessary information that occupies space.</li>
               <li>Sankey chart becomes difficult to read when overwhelmed with too many lines.</li>
             </ul>
-          </div>
-          <!-- right column -->
-          <div class="col-lg-6 box">
             <figure>
               <img src="img/p3_outcome_3_1.png" width="100%">
             </figure>
           </div>
-        </div>
-        <hr>
-        <!-- Solution -->
-        <div class="row align-items-top">
-          <!-- left column -->
-          <div class="col-lg-6">
+          <!-- Solution -->
+          <div class="col-lg-6 column-border bg_NA">
+              <h5 class="m24">Design Solutions:</h5>
+                <ul>
+                  <li>Implement a filter function enabling users to narrow down the scope of the report.</li><br>
+                  <li>The filter not only reduces the complexity of the Sankey chart but also streamlines the detail information, allowing users to focus on their specific areas of interest or concern.</li><br>
+                </ul>
             <figure>
               <img src="img/p3_outcome_3_2.png" width="100%">
             </figure>
           </div>
-          <!-- right column -->
+        </div>
+        <!-- Solution
+        <div class="row align-items-top">
+          left column
           <div class="col-lg-6">
-          <h5 class="m24">Proposed Design Solutions:</h5>
+            <figure>
+              <img src="img/p3_outcome_3_2.png" width="100%">
+            </figure>
+          </div> -->
+          <!-- right column -->
+          <!-- <div class="col-lg-6  bg_NA">
+          <h5 class="m24">Design Solutions:</h5>
             <ul>
               <li>Implement a filter function enabling users to narrow down the scope of the report.</li><br>
               <li>The filter not only reduces the complexity of the Sankey chart but also streamlines the detail information, allowing users to focus on their specific areas of interest or concern.</li><br>
             </ul>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>

@@ -53,6 +53,10 @@ body{
   background: #FFFFFF;
 }
 
+.bg_lightgray{
+  background: #f9f9f9;
+}
+
 .bg_article{
   background: #f5f5f5;
 }
@@ -182,7 +186,7 @@ h4{
 /* bullet content */
 
 h5{
-  font-weight: 400;
+  font-weight: 700;
   font-size: 16px;
   line-height: 36px;
   padding-bottom: 8px;
@@ -319,6 +323,16 @@ footer {
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
 }
 
+/* Split line style */
+.column-border {
+  border-left: 1px solid rgba(0, 0, 0, 0.1); /* Vertical line style */
+  height: 100%; /* Take full height of the parent container */
+  padding: 0 0 0px 20px;
+}
+
+.toolkit-img{
+  width: 55%;
+}
 
 
 @media (max-width: 768px) {
@@ -331,4 +345,20 @@ footer {
     flex: 100%;
     order:2;
   }
+  .column-border {
+    border-left: none; /* Remove vertical line style */
+    border-top: 1px solid rgba(0, 0, 0, 0.1); /* Horizontal line style */
+    width: 100%; /* Take full width of the parent container */
+    margin: 20px 0; /* Adjust spacing */
+  }
+
+  #toolkit-images {
+    flex-direction: row;
+    justify-content: center; /* Center images horizontally on mobile screens */
+}
+
+.toolkit-img {
+    width: 20; /* Each image takes up 100% of the container width on mobile screens */
+    max-width: 20%; /* Ensure images do not exceed container width */
+}
 }

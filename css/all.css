@@ -64,7 +64,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 
 [tabindex="-1"]:focus {
@@ -4667,7 +4667,7 @@ input[type=button].btn-block {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  /* border: 0.5px solid rgba(0, 0, 0, 0.1); */
+  border: 1px solid #e8e8e8;
   border-radius: 10px;
 }
 .card > hr {
